@@ -28,6 +28,7 @@
   #check-number{
     margin-top:3rem;
     margin:auto;
+    margin-bottom: 1rem;
     display:block;
     background: transparent;
     color:var(--primary-green);
@@ -35,4 +36,7 @@
     border-width: medium;
     padding:0.5rem;
     border-radius: 0.3rem;
+  }
+  #output-box{
+    font-size: large;
   }
