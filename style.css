@@ -1,10 +1,9 @@
-:root{
-    --primary-dark:#1F2937;
-      --primary-green:#6EE7B7;
-  }
-  body{
-    background-color:var(--primary-dark);
-    color:var(--primary-green);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+body{
+    background-color: #f5e8c7;
+    color:#6f4c5b;
+    font-family: "Montserrat", sans-serif;
+    min-width: 100vw;
   }
   h1{
     text-align: center;
@@ -12,7 +11,7 @@
   }
   .container{
    display:flex;
-    margin:auto;
+    margin:4rem auto 7rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -30,9 +29,9 @@
     margin:auto;
     margin-bottom: 1rem;
     display:block;
-    background: transparent;
-    color:var(--primary-green);
-    border-color:var(--primary-green);
+    background-color: #6f4c5b;;
+    color:white;
+    border-color:#6f4c5b;
     border-width: medium;
     padding:0.5rem;
     border-radius: 0.3rem;
