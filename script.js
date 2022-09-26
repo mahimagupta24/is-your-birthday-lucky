@@ -26,8 +26,8 @@ function checkBirthDateIsLucky(){
   else
   outputBox.innerText="Please enter both the fields🙏";
 }
-function calculateSum(dob){
-  
+
+function calculateSum(dob){ 
   dob= dob.replaceAll("-","");
   let sum=0;
   for(let index=0;index<dob.length;index++){
